@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+body,
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.Left {
+    height: 100vh;
+    background-color: #E4980F;
+    overflow-y: auto;
+}
+
+.LeftIco a {
+    color: white !important;
+}
+
+.LeftIco a:focus,
+.LeftIco a:hover {
+    color: #eee !important;
+}
+
+.LeftIco>* {
+    padding: 30px;
+}
+
+.LeftSoc>* {
+    width: 50px;
+    height: 50px;
+}
+
+.LeftSoc a {
+    padding: 10px;
+    border: 1px solid #faa811;
+    color: #fcba41 !important;
+    text-align: center;
+}
+
+.LeftSoc a:hover {
+    background-color: #faa811;
+    color: white !important;
+}
+
+#SearchModal .uk-modal-dialog {
+    background: transparent;
+}
+
+#SearchModal .uk-form-blank {
+    background: transparent;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 4px solid white;
+}
+
+#SearchModal .uk-form-blank::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.Right {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.uk-slideshow-items {
+    height: 100vh;
+}
+
+.HomePrivet {
+    background: #fdfdfd;
+}
+
+.HomePrivet img {
+    box-shadow: -20px -20px 0 0 #E4980F;
+}
+
+.HomePrivet .fa-5x,
+.HomeInfo .fa-5x {
+    font-size: 7em;
+}
+
+.HomePrivet [uk-parallax] {
+    position: relative;
+    color: #E4980F;
+}
+
+.HomePrivet .fa-genderless {
+    margin-left: 20%;
+}
+
+.HomePrivet .fa-circle {
+    margin-left: 5%;
+}
+
+.BlockInfo {
+    color: black;
+}
+
+.BlockInfo:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.BlockInfo h3>a {
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid #faa811;
+}
+
+.BlockInfo h3>a:hover {
+    text-decoration: none;
+    color: #faa811;
+}
+
+.BlockInfo mark {
+    background: none;
+}
+
+.BlockInfo mark a {
+    color: black;
+}
+
+.HomeInfo {
+    background: #E4980F;
+    color: black;
+}
+
+.HomeInfo [uk-parallax],
+.treu {
+    position: relative;
+    color: white;
+}
+
+.treu1 {
+    display: inline-block;
+    border: 40px solid transparent;
+    border-left: 40px solid white;
+    border-top: 40px solid white;
+}
+
+.treu2 {
+    display: inline-block;
+    border: 40px solid transparent;
+    border-right: 40px solid white;
+    border-bottom: 40px solid white;
+    margin-left: 10%;
+}
+
+.HomeInfo img {
+    box-shadow: 20px 20px 0 0 white;
+}
+
+.Footer .uk-subnav>*> :first-child {
+    font-size: .65rem;
+}
+
+#Feedback .uk-modal-dialog {
+    background: #E4980F;
+    color: white;
+}
+
+#Feedback .uk-input,
+#Feedback .uk-textarea {
+    background: rgba(255, 255, 255, 0.25);
+    border: none;
+    color: white;
+}
+
+#Feedback .uk-input::placeholder,
+#Feedback .uk-textarea::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+#Feedback .uk-form-custom {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+#Feedback .BtnSelect {
+    color: white;
+    text-transform: none;
+    font-size: 1rem;
+    border: none;
+}
+
+#Feedback .BtnSend {
+    background: white;
+    border: none;
+}

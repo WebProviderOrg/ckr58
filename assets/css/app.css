@@ -1,0 +1,26 @@
+.uk-nav-default > li > a {
+    color: #eee;
+    font-size: 1.5rem;
+}
+
+.uk-nav-parent-icon > .uk-parent > a::after {
+    display: none;
+}
+
+.uk-nav-default > li > a:focus, .uk-nav-default > li > a:hover {
+    color: #fff;
+}
+
+ul.uk-nav-sub {
+    padding-left: 0;
+}
+
+.uk-nav-default .uk-nav-sub a {
+    color: #eee;
+    font-size: 1.25rem;
+}
+
+.uk-badge {
+    margin-left: 10px;
+    background: #faa811;
+}

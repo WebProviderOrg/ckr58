@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Hello, world!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/uikit@3.6.5/dist/css/uikit.min.css">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <!-- <script async src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script> -->
+    <!-- <script async src="https://unpkg.com/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+    <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="uk-grid-collapse" uk-grid>
+        <div class="Left uk-width-medium">
+            <div class="uk-flex-center" uk-grid>
+                <div>
+                    <ul class="LeftIco uk-subnav" uk-margin>
+                        <li><a href="#SearchModal" uk-toggle><i class="fa fa-search"></i></a></li>
+                        <li><a href=""><i class="fa fa-phone"></i></a></li>
+                        <li><a href=""><i class="fa fa-eye"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="uk-flex-center" uk-grid>
+                <div><a href="index.html"><img src="logow2.png" alt=""></a></div>
+            </div>
+            <div class="uk-flex-center uk-text-center" uk-grid>
+                <div class="uk-width-1-2@s uk-width-3-5@m">
+                    <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Коллективы</a></li>
+                        <li><a href="#">Афиша</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Партнеры</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="uk-flex-center" uk-grid>
+                <div>
+                    <ul class="LeftSoc uk-subnav" uk-margin>
+                        <li><a href=""><i class="fa fa-globe fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-vk fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="Right uk-width-expand">
+            <div class="uk-position-relative uk-visible-toggle" tabindex="-1"
+                uk-slideshow="autoplay: true; animation: pull">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="content/banner/DJI_0082.jpg" alt="" uk-cover>
+                        <div
+                            class="uk-overlay uk-overlay-default uk-dark uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">ГАУК ПО Центр культурного развития «Губернский»</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="content/banner/417A1052.jpg" alt="" uk-cover>
+                        <div
+                            class="uk-overlay uk-overlay-default uk-dark uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Cостоялось торжественное открытие Центра культурного развития
+                                «Губернский»</h3>
+                            <p class="uk-margin-remove">«Здесь созданы все условия для детей и взрослых, в том числе
+                                ветеранов, для того, чтобы можно было найти занятие себе по душе, раскрыть свои
+                                таланты.»</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="content/banner/_7-0HE37-Mk.jpg" alt="" uk-cover>
+                        <div
+                            class="uk-overlay uk-overlay-default uk-dark uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Дискотека «Newверсия»</h3>
+                            <p class="uk-margin-remove">Детей и взрослых ждали Веселые хороводы с Дедушкой Морозом,
+                                сладкие призы за рассказанные стихотворения, а так же состоялся уличный танцевальный
+                                Батл</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                    uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    uk-slideshow-item="next"></a>
+
+            </div>
+
+            <div class="HomePrivet uk-section uk-section-muted uk-section-large">
+                <div class="uk-container">
+                    <i class="fa fa-genderless fa-5x" aria-hidden="true"
+                        uk-parallax="opacity: 0,1; y: -100,250; viewport: 0.5"></i>
+                    <i class="fa fa-circle fa-5x" aria-hidden="true"
+                        uk-parallax="opacity: 0,1; y: -100,100; viewport: 0.5"></i>
+                    <div style="position: relative; z-index: 1;">
+                        <div class="uk-flex-middle" uk-grid>
+                            <div class="uk-width-1-4"><img src="content/home/Gsmc8KFGFN8.jpg" alt=""
+                                    uk-scrollspy="cls: uk-animation-slide-left; repeat: true"></div>
+                            <div class="uk-width-3-4">
+                                <h2>Приветственное слово директора</h2>
+                                <p>Ясность нашей позиции очевидна: высокотехнологичная концепция общественного уклада
+                                    играет
+                                    определяющее значение для новых принципов формирования материально-технической и
+                                    кадровой
+                                    базы. Равным образом, выбранный нами инновационный путь влечет за собой процесс
+                                    внедрения и
+                                    модернизации модели развития.</p>
+                                <p>Мы вынуждены отталкиваться от того, что укрепление и развитие внутренней структуры
+                                    представляет собой интересный эксперимент проверки инновационных методов управления
+                                    процессами.</p>
+                                <p>Господа, начало повседневной работы по формированию позиции говорит о возможностях
+                                    своевременного выполнения сверхзадачи.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-section uk-section-default uk-section-xlarge">
+                <div class="uk-container">
+                    <div class="BlockInfo uk-flex-middle uk-padding uk-padding-remove-horizontal" uk-grid>
+                        <div class="uk-width-1-6">00 месяц</div>
+                        <div class="uk-width-auto">00:00</div>
+                        <div class="uk-width-expand">
+                            <h3><a href="">Дурное дело нехитрое: звук клавиш печатной машинки определил дальнейшее
+                                    развитие</a><span class="uk-badge">Новости</span></h3>
+                        </div>
+                        <div class="uk-width-1-6 uk-text-muted">Подробности<br><mark><a href="">Ссылка</a></mark></div>
+                    </div>
+                    <div class="BlockInfo uk-flex-middle uk-padding uk-padding-remove-horizontal" uk-grid>
+                        <div class="uk-width-1-6">00 месяц</div>
+                        <div class="uk-width-auto">00:00</div>
+                        <div class="uk-width-expand">
+                            <h3><a href="">Новый закон накладывает вето на треск разлетающихся скреп</a><span
+                                    class="uk-badge">Афиша</span></h3>
+                        </div>
+                        <div class="uk-width-1-6 uk-text-muted">Подробности<br><mark><a href="">Ссылка</a></mark></div>
+                    </div>
+                    <div class="BlockInfo uk-flex-middle uk-padding uk-padding-remove-horizontal" uk-grid>
+                        <div class="uk-width-1-6">00 месяц</div>
+                        <div class="uk-width-auto">00:00</div>
+                        <div class="uk-width-expand">
+                            <h3><a href="">Независимые СМИ потому и независимы, что обучение кадров - приоритетная
+                                    задача!</a><span class="uk-badge">Объявление</span></h3>
+                        </div>
+                        <div class="uk-width-1-6 uk-text-muted">Подробности<br><mark><a href="">00-00-00</a></mark>
+                        </div>
+                    </div>
+                    <div class="BlockInfo uk-flex-middle uk-padding uk-padding-remove-horizontal" uk-grid>
+                        <div class="uk-width-1-6">00 месяц</div>
+                        <div class="uk-width-auto">00:00</div>
+                        <div class="uk-width-expand">
+                            <h3><a href="">Воистину радостный звук: песнь светлого будущего</a><span
+                                    class="uk-badge">Отчёт</span></h3>
+                        </div>
+                        <div class="uk-width-1-6 uk-text-muted">Подробности<br><mark><a href="">Ссылка</a></mark></div>
+                    </div>
+                    <div class="BlockInfo uk-flex-middle uk-padding uk-padding-remove-horizontal" uk-grid>
+                        <div class="uk-width-1-6">00 месяц</div>
+                        <div class="uk-width-auto">00:00</div>
+                        <div class="uk-width-expand">
+                            <h3><a href="">Подтверждено: ночь оказалась долгой</a><span
+                                    class="uk-badge">Коллектив</span>
+                            </h3>
+                        </div>
+                        <div class="uk-width-1-6 uk-text-muted">Подробности<br><mark><a href="">Ссылка</a></mark></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="HomeInfo uk-section uk-section-large uk-section-muted">
+                <div class="uk-container">
+                    <span class="treu1" uk-parallax="opacity: 0,1; y: -100,25; viewport: 0.5"></span>
+                    <span class="treu2" uk-parallax="opacity: 0,1; y: -100,400; viewport: 0.5"></span>
+                    <div class="uk-child-width-1-2@m uk-flex-middle" uk-grid>
+                        <div>
+                            <p>А также некоторые особенности внутренней политики превращены в посмешище, хотя само их
+                                существование приносит несомненную пользу обществу. Банальные, но неопровержимые выводы,
+                                а также активно развивающиеся страны третьего мира в равной степени предоставлены сами
+                                себе.</p>
+                            <p>Ясность нашей позиции очевидна: семантический разбор внешних противодействий влечет за
+                                собой процесс внедрения и модернизации форм воздействия.</p>
+                        </div>
+                        <div>
+                            <img src="content/home/FQsBFn2c7Do.jpg" alt=""
+                                uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-section uk-section-default uk-section-large">
+                <div class="uk-container">
+                    <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider>
+                        <div class="uk-slider-container">
+                            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="http://placehold.it/400x400" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="http://placehold.it/400x400" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="http://placehold.it/400x400" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="http://placehold.it/400x400" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="http://placehold.it/400x400" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="http://placehold.it/400x400" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="http://placehold.it/400x400" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="http://placehold.it/400x400" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="uk-visible@s">
+                            <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous
+                                uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next
+                                uk-slider-item="next"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Footer uk-section uk-section-xlarge uk-section-secondary uk-light">
+                <div class="uk-container uk-container-expand">
+
+                    <div class="uk-margin-bottom uk-text-large"><img class="uk-margin-small-right"
+                            src="assets/images/wVRIm_--_400x400.png" alt="">Министерство культуры и туризма Пензенской
+                        области</div>
+
+                    <div uk-grid>
+                        <div class="uk-width-2-4@l uk-width-2-5@xl">
+                            <ul class="uk-subnav" uk-margin>
+                                <li><a href="#">Детская театральная студия "На ленинградской"</a></li>
+                                <li><a href="#">Молодежное объединение "КреативГрупп"</a></li>
+                                <li><a href="#">Студия русской традиционной культуры "Клевер"</a></li>
+                                <li><a href="#">Народный-образцовый театр моды Ольги Букиной</a></li>
+                                <li><a href="#">Детская студия заслуженного коллектива народного творчества РФ
+                                        "Вензеля"</a></li>
+                                <li><a href="#">Танцевально-спортивный клуб "Альфа"</a></li>
+                            </ul>
+                        </div>
+                        <div class="uk-width-2-4@l uk-width-2-5@xl">
+                            <ul class="uk-subnav" uk-margin>
+                                <li><a href="#">Большой зал</a></li>
+                                <li><a href="#">Малый зал</a></li>
+                                <li><a href="#">Организация концертной деятельности</a></li>
+                                <li><a href="#">Организация и проведение различных событий</a></li>
+                                <li><a href="#">Фотосессии</a></li>
+                                <li><a href="#">Спортивные мероприятия</a></li>
+                                <li><a href="#">Музыкальное сопровождение мероприятий</a></li>
+                            </ul>
+                        </div>
+                        <div class="uk-width-1-1@l uk-width-expand@xl">
+                            <p><button class="uk-button uk-button-default" uk-toggle="target: #Feedback">Обратная связь</button></p>
+                            <p>Пенза, Ленинградская улица, 1А<br>Пн — Пт 9:00 — 18:00<br><a href="">+7 (8412)
+                                    59-45-03</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="uk-section uk-section-xsmall">
+                <div class="uk-container">
+                    <div uk-grid>
+                        <div class="uk-width-expand uk-text-meta uk-text-center">
+                            <span>© 2020, Государственное автономное учреждение культуры Пензенской области Центр
+                                культурного развития «Губернский»</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="SearchModal" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+            <input class="uk-input uk-form-blank uk-form-large uk-width-1-1" type="text" placeholder="Поиск по сайту">
+        </div>
+    </div>
+
+    <div id="Feedback" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <form>
+                <fieldset class="uk-fieldset">
+
+                    <legend class="uk-legend">Обратная связь</legend>
+
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Имя">
+                    </div>
+
+                    <div class="uk-margin">
+                        <input class="uk-input" type="email" placeholder="Электронная почта">
+                    </div>
+
+                    <div class="uk-margin">
+                        <div uk-form-custom="target: > * > span:first-child">
+                            <select>
+                                <option value="">Тема сообщения</option>
+                                <option value="1">Директору</option>
+                                <option value="2">Покупка билетов</option>
+                                <option value="3">Отдел кадров</option>
+                            </select>
+                            <button class="BtnSelect uk-button uk-button-default" type="button" tabindex="-1">
+                                <span></span>
+                                <span uk-icon="icon: chevron-down"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="uk-margin">
+                        <textarea class="uk-textarea" rows="5" placeholder="Сообщение"></textarea>
+                    </div>
+
+                    <button class="BtnSend uk-button uk-button-default uk-width-1-1">Отправить</button>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/uikit@3.6.5/dist/js/uikit.min.js"></script>
+    <script src="https://unpkg.com/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
