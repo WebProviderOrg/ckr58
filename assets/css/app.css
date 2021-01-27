@@ -1,13 +1,14 @@
-.uk-nav-default > li > a {
+.uk-nav-default>li>a {
     color: #eee;
     font-size: 1.5rem;
 }
 
-.uk-nav-parent-icon > .uk-parent > a::after {
+.uk-nav-parent-icon>.uk-parent>a::after {
     display: none;
 }
 
-.uk-nav-default > li > a:focus, .uk-nav-default > li > a:hover {
+.uk-nav-default>li>a:focus,
+.uk-nav-default>li>a:hover {
     color: #fff;
 }
 
